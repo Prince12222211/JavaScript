@@ -1,0 +1,60 @@
+Q.what is javascript?
+=>JS is a programming language. We use it give instruction to the computer.
+=>console.log("Prince verma"),console.log is used to log(Print) a message to the console.
+
+=>varibale are cointaner for the data.
+=>variable are case sensitive.
+=>only letters, digits, underscore(-) and $ is allowed.(not even space).
+=>only a letter, underscore(-) or $ should be 1st character.
+=>Reversed words cannot be variables names.
+var: its a global scope
+let: is a block scope.
+const: its a block scope.
+data types in JS:
+=>Primitive(7)=Number, string, boolean, undefined, null, biglnt, symbol.
+=> Non Primitive(object->collection of the values)=Arrays,Function.
+infinite LOOPS=>The loop never Ends.
+While(Condition){
+    Do some work
+}
+=>for(let var of strVar){
+    do some work
+}
+
+
+=>String is a sequence of the character
+=>for the string length=str.length
+=>string indices=str[0],str[1],str[2]...
+=>Template Literals are a way to have embedded expression in the strings
+=> To create strings by doing subtituation of the placeholders
+=> `string text ${expression} string text`
+
+#STRING METHODS IN JS
+=> str.toUpperCase()
+=> str.toLowerCase()
+str.trin() //removes whitespace
+=>strings are immutable in JS no change
+
+#Arrays
+=>its a mutable in JS.
+
+
+#ForEach Loop in Arrays
+arr.forEach(callBackFunction)
+callBackFunction:here, it is a function to execute for each element in the Arrays
+*A callback is a function passed as an arguement to another function
+arr.forEach((val))=>{
+    console.log(val)
+})
+=>forEach is a higher order function in javascript its means HOF.
+
+#Window object
+=>The window object represent an ob=pen window in a browser. it is a browser's objet(not javascript's) & automatically created by browser.
+=>It is a global object with lots of properties & Methods.
+
+#DOM(Document object Model)
+=>When a web page is loaded, the browser creates a documnet object model of the page.
+console.log=>for the Print
+console.dir=>For the document properties and Methods
+
+

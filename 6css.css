@@ -1,0 +1,22 @@
+h1 {
+  color: rgb(0, 0, 0);
+  text-decoration: dashed;
+  background-color: rgb(17, 58, 58);
+}
+body {
+  background-color: rgb(63, 66, 22);
+}
+button {
+  background-color: blueviolet;
+  color: aquamarine;
+}
+#prince {
+  color: rgb(215, 215, 20);
+}
+#box {
+  height: 300px;
+  width: 100px;
+  background-color: rgb(25, 96, 137);
+  color: white;
+  border: 1px solid black;
+}
